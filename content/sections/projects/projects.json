@@ -2,47 +2,169 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🌐 Web and Mobile App",
+      "title": "(In Progress) Anime Recommender",
+      "description": "A personal project I'm building where users can review anime and receive recommendations based on previous reviews",
+      "tags": ["Typescript", "React", "React Native", "Material-UI", "tPRC"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
-      ]
+        "alt": "Quick Setup"
+      }
+
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "🐍 Django Web App",
+      "title": "Personal Investment Tracking App!",
+      "description": "A web app to track my stock trades over time. Includes auth.",
+      "tags": ["Python Django"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/invest1.avif",
         "alt": "Extendable Layout"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/greent3/django_stock_portfolio"
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=4Tu6catIE70"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "⚛️ Simple React App",
+      "title": "25+5 Timer",
+      "description": "A timer with customizable parameters for work time and break time. Implemented in 3 ways: as a single page stateful REACT app, a stateful app divided into parent & child classes, and an app made of functional components using hooks.",
+      "tags": ["React", "CSS"],
+      "image": {
+        "src": "../../images/pomodoro2.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/25plus5clock"
+        },
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/QtD1SbFAkRM"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "📊 Analyzing SQL Data",
+      "title": "Investigating Decline in Yammer Users",
+      "description": "Using focused SQL queries to gather relevant data and determine the source of user decline.",
+      "tags": ["SQL", "Jupyter"],
+      "image": {
+        "src": "../../images/sql2.png",
+        "alt": "SQL photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Investigating_User_Decline/blob/main/Yammer%20Investigation.ipynb"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🤖 Machine Learning",
+      "title": "Ecommerce Purchase Predictor",
+      "description": "Uses CSV data to train a model that classifies users into two groups; users that will make a purchase and users that won't make a purchase.",
+      "tags": ["Python", "Scikit Learn"],
+      "image": {
+        "src": "../../images/purchase1.avif",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Harvards_AI_Programming_W_Python/tree/main/Chapter_4_Learning/shopping/shopping"
+        },
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/kPCYa0pBcYA"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🤖 Machine Learning",
+      "title": "Whisky Review Sentiment Classifier",
+      "description": "Using NLTK libraries to classify whisky reviews as positive or negative based on customer sentiment.",
+      "tags": ["Python", "Pandas", "Numpy", "Scikit Learn", "Matplotlib"],
+      "image": {
+        "src": "../../images/hibiki.jpg",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Whisky_Review_Classifier"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧠 Memory Management & OOP",
+      "title": "C++ Customer Database",
+      "description": "Linked-list implementation of a database that holds customer info. Uses recursion, pointers, operator overloading, debug mode, copy constructors, and makefiles. User can add, print, modify, and delete records within the database. The user can also reverse the list of records. The records within the list are written to a file upon exiting the application, and read from a file upon starting an application.",
+      "tags": ["C/C++"],
+      "image": {
+        "src": "../../images/ram1.avif",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Struct-List/blob/main/llist.cpp"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🎬 Educational Video Series",
+      "title": "OOP Video Series w/ C++",
+      "description": "An educational video series I made that provides examples of S.O.L.I.D. object oriented programming using C++",
+      "tags": ["C++", "OOP"],
+      "image": {
+        "src": "../../images/oop1.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/playlist?list=PLppO4E8hA5Ijs5uVqfCuYeQLObD7oqQtR"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "☁️ Web Hosting",
+      "title": "AWS S3 Hosted Blogsite",
+      "description": "My blog page that I created and hosted on AWS S3 and Cloudfront",
+      "tags": ["AWS"],
+      "image": {
+        "src": "../../images/s3.png",
+        "alt": "Blogsite Image"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://astleyumblog.s3.amazonaws.com/index.html"
         }
       ]
     }
+
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": ""
   }
 }

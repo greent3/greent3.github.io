@@ -1,26 +1,27 @@
 import React from "react";
 import {
   AboutSection,
-  ArticlesSection,
-  ContactSection,
   HeroSection,
   InterestsSection,
   Page,
-  ProjectsSection,
   Seo,
 } from "gatsby-theme-portfolio-minimal";
+
+import { Box } from "@mui/material";
+
+import FutureProjects from "../customComponents/about/futureProjects";
 
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <Seo title="Travis Green Software Engineer Portfolio" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
-        <InterestsSection sectionId="details" heading="Details" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <AboutSection sectionId="about" heading="About me" />
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <FutureProjects />
+        </Box>
+        <InterestsSection sectionId="hobbies" heading="Hobbies" />
       </Page>
     </>
   );

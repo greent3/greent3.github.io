@@ -1,12 +1,16 @@
 import React from "react";
-import { LegalSection, Page, Seo } from "gatsby-theme-portfolio-minimal";
+import {
+  Page,
+  ProjectsSection,
+  Seo,
+} from "gatsby-theme-portfolio-minimal";
 
 export default function ImprintPage() {
   return (
     <>
-      <Seo title="Imprint" useTitleTemplate={true} noIndex={true} />
+      <Seo title="Projects" useTitleTemplate={false} noIndex={true} />
       <Page>
-        <LegalSection sectionId="imprint" heading="Imprint" />
+        <ProjectsSection sectionId="projects" heading="Projects" />
       </Page>
     </>
   );
