@@ -14,7 +14,7 @@ const experienceDescArr = [
         title: "Full-Stack Web Developer",
         startDate: "Jan2023",
         endDate: "Current",
-        desc: ["Building, debugging, and maintaining web & mobile apps for enterprise clients", "100+ merged PRs (as of Oct2023)"],
+        desc: ["Building, debugging, and maintaining web & mobile apps for enterprise clients", "100+ merged PRs (as of Nov2023)"],
         primaryTools: ["TypeScript", "React/Native", "TanstackQuery", "Express", "Prisma ORM", "SQL", "CSS/UI-Libraries", "Github"],
         otherTools: ["Redis", "Expo", "VS Code", "Twilio"],
         img: ct1

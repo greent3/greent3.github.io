@@ -11,13 +11,13 @@ export default function futureProjects() {
             <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
                 <Stack>
                     <Typography sx={themeByComponent.regularText}>
-                        • leverage Machine Learning 🤖
+                        • Leverage Machine Learning 🤖
                     </Typography>
                     <Typography sx={themeByComponent.regularText}>
-                        • gain insights about user patterns from user interactions & A/B testing 📊
+                        • Gain insights about user patterns from user interactions & A/B testing 📊
                     </Typography>
                     <Typography sx={themeByComponent.regularText}>
-                        • integrate with BTC blockchain or lightning network 📒
+                        • Integrate with BTC blockchain or lightning network 📒
                     </Typography>
                 </Stack>
             </Box>

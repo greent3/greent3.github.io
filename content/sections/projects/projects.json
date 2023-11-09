@@ -2,14 +2,24 @@
   "projects": [
     {
       "visible": true,
-      "category": "🌐 Web and Mobile App",
-      "title": "(In Progress) Anime Recommender",
-      "description": "A personal project I'm building where users can review anime and receive recommendations based on previous reviews",
-      "tags": ["Typescript", "React", "React Native", "Material-UI", "tPRC"],
+      "category": "🌐 React Web App (Mobile in progress)",
+      "title": "Anime Recommender",
+      "description": "An app where users can review anime, receive recommendations based on previous reviews, and edit their watchlist.",
+      "tags": ["Typescript", "React", "Next.js", "tPRC", "Tailwind CSS", "Prisma ORM", "Clerk"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup"
-      }
+        "src": "../../images/ds1.jpeg",
+        "alt": "Demon Slayer photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/anime-recommender"
+        },
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/iYWTQAWePIM"
+        }
+      ]
 
     },
     {
@@ -20,7 +30,7 @@
       "tags": ["Python Django"],
       "image": {
         "src": "../../images/invest1.avif",
-        "alt": "Extendable Layout"
+        "alt": "Investment photo"
       },
       "links": [
         {
@@ -41,7 +51,7 @@
       "tags": ["React", "CSS"],
       "image": {
         "src": "../../images/pomodoro2.png",
-        "alt": "Extendable Layout"
+        "alt": "Timer app photo"
       },
       "links": [
         {
@@ -79,7 +89,7 @@
       "tags": ["Python", "Scikit Learn"],
       "image": {
         "src": "../../images/purchase1.avif",
-        "alt": "Extendable Layout"
+        "alt": "E commerce photo"
       },
       "links": [
         {
@@ -100,7 +110,7 @@
       "tags": ["Python", "Pandas", "Numpy", "Scikit Learn", "Matplotlib"],
       "image": {
         "src": "../../images/hibiki.jpg",
-        "alt": "Extendable Layout"
+        "alt": "Whisky photo"
       },
       "links": [
         {
@@ -117,7 +127,7 @@
       "tags": ["C/C++"],
       "image": {
         "src": "../../images/ram1.avif",
-        "alt": "Extendable Layout"
+        "alt": "RAM disk photo"
       },
       "links": [
         {
@@ -134,7 +144,7 @@
       "tags": ["C++", "OOP"],
       "image": {
         "src": "../../images/oop1.png",
-        "alt": "Extendable Layout"
+        "alt": "OOP Photo"
       },
       "links": [
         {
