@@ -8,12 +8,12 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm Travis",
+  "title": "",
   "subtitle": {
-    "prefix": "I currently work as a full-stack developer",
+    "prefix": "I'm a full-stack developer with a multitude of web & ML projects",
     "suffix": ""
   },
-  "description": "I also have experience using Python for both ML and Web Development",
+  "description": "I've also built some cool projects using C++ and Java.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github"],
     "showIcons": false

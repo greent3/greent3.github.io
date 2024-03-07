@@ -2,7 +2,7 @@
   "projects": [
     {
       "visible": true,
-      "category": "🌐 React Web App (Mobile in progress)",
+      "category": "🌐 React Web App",
       "title": "Anime Recommender",
       "description": "An app where users can review anime, receive recommendations based on previous reviews, and edit their watchlist.",
       "tags": ["Typescript", "React", "Next.js", "tPRC", "Tailwind CSS", "Prisma ORM", "Clerk"],

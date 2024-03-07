@@ -3,7 +3,7 @@ imageSrc: "../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg"
 imageAlt: ""
 ---
 
-I've been coding for just over 5 years now and love the challenge of solving a new problem everyday!
+I've been coding for almost 6 years now.
 
 My coding knowledge stems from a combination of university study, self study, and professional experience.
 
