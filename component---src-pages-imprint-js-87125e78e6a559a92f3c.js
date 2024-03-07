@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_portfolio_minimal_theme=self.webpackChunkgatsby_starter_portfolio_minimal_theme||[]).push([[180],{3418:function(e,t,n){n.r(t),n.d(t,{default:function(){return a}});var r=n(6540),l=n(777);function a(){return r.createElement(r.Fragment,null,r.createElement(l.G$,{title:"Projects",useTitleTemplate:!1,noIndex:!0}),r.createElement(l.YW,null,r.createElement(l.YE,{sectionId:"projects",heading:"Projects"})))}}}]);
+//# sourceMappingURL=component---src-pages-imprint-js-87125e78e6a559a92f3c.js.map
