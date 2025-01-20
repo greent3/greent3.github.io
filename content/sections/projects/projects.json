@@ -12,6 +12,10 @@
       },
       "links": [
         {
+          "type": "external",
+          "url": "https://www.anime-recommender.com"
+        },
+        {
           "type": "github",
           "url": "https://github.com/greent3/anime-recommender"
         },
@@ -24,6 +28,27 @@
     },
     {
       "visible": true,
+      "category": "React Native Mobile App",
+      "title": "Chinese Radical Review",
+      "description": "A mobile app designed to help Chinese language students learn radicals (building blocks of chinese characters) using spaced repetition",
+      "tags": ["React Native", "Expo", "Tailwind CSS"],
+      "image": {
+        "src": "../../images/rr_ss_2.png",
+        "alt": "App photo"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.radicalreview.app"
+        },
+        {
+          "type": "youtube",
+          "url": "https://youtube.com/shorts/JCXouDBuii4?feature=share"
+        }
+      ]
+    },
+    {
+      "visible": false,
       "category": "🐍 Django Web App",
       "title": "Personal Investment Tracking App!",
       "description": "A web app to track my stock trades over time. Includes auth.",
