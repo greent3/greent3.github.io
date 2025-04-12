@@ -42,12 +42,12 @@ const languagesArr = [
   {
     language: "Mandarin Chinese",
     level: "Intermediate",
-    cert: "Global Seal of Biliteracy: functional fluency",
+    cert: "Global Seal of Biliteracy: Functional Fluency",
   },
   {
     language: "Japanese",
-    level: "Beginner",
-    cert: "n/a (roughly N5)",
+    level: "Lower Intermediate",
+    cert: "n/a (roughly N4)",
   },
 ];
 
