@@ -9,7 +9,7 @@ import src_logo_1 from "../../../content/images/src_logo_1.png";
 const experienceDescArr = [
   {
     company: "Scientific Research Corporation",
-    title: "Software Engineer",
+    title: "Software Engineer II",
     startDate: "Apr2024",
     endDate: "Current",
     desc: [
@@ -27,6 +27,17 @@ const experienceDescArr = [
       "VS Code",
       "Jira",
     ],
+    projects: [
+      {
+        title: "Tracksync",
+        desc: "Full stack web application serving as a data persistance and translation middleware between two different server systems",
+        bullets: [
+          "Built serverside translation logic using Java/Spring Boot",
+          "Proposed and implemented UI changes making app setup more intuitive for users",
+          "Researched system requirements and ensured compliance to government standards",
+        ],
+      },
+    ],
     img: src_logo_1,
   },
   {
@@ -35,10 +46,10 @@ const experienceDescArr = [
     startDate: "Jan2023",
     endDate: "Apr 2024",
     desc: [
-      "Building RESTful APIs and server-side logic using Node.js, Express, and Prisma ORM for efficient data retrieval and manipulation",
-      "Creating user-friendly interfaces and implementing interactive features using React, including component development, state management, and API integration",
-      "Collaborating with designers to implement visual designs using CSS and Material-UI, focusing on aesthetics, consistency, and responsive design principles",
-      "Participating in Agile methodologies, attending stand-up meetings, and contributing to sprint planning and retrospectives",
+      "Built RESTful APIs and server-side logic using Node.js, Express, and Prisma ORM for efficient data retrieval and manipulation",
+      "Created user-friendly interfaces and implementing interactive features using React, including component development, state management, and API integration",
+      "Collaborated with designers to implement visual designs using CSS and Material-UI, focusing on aesthetics, consistency, and responsive design principles",
+      "Participated in Agile methodologies, attending stand-up meetings, and contributing to sprint planning and retrospectives",
     ],
     primaryTools: [
       "TypeScript",
@@ -60,15 +71,6 @@ const experienceDescArr = [
           "Built dynamic and reusable UI components",
           "Implemented hooks, REST endpoints, and batch database transactions",
           "Provided technical guidance to junior devs",
-        ],
-      },
-      {
-        title: "Help Group",
-        desc: "Web-based platform designed to streamline the disability claims process for veterans dealing with the VA.",
-        bullets: [
-          "Implemented UI, hooks, and endpoints for reactive components and features",
-          "Architecting and implementing changes requested by client",
-          "Testing, debugging, and design improvement",
         ],
       },
     ],
@@ -209,7 +211,7 @@ export default function ExperienceSection() {
                 {job.projects && (
                   <Stack sx={{ pt: 1 }}>
                     <Typography sx={{ ...themeByComponent.sectionSubtitle }}>
-                      {`Projects:`}
+                      {`Highlighted Project:`}
                     </Typography>
                     {job.projects.map((project, projIndex) => (
                       <Stack key={projIndex}>
