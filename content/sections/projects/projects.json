@@ -28,7 +28,7 @@
     },
     {
       "visible": true,
-      "category": "React Native Mobile App",
+      "category": "📱 React Native Mobile App",
       "title": "Chinese Radical Review",
       "description": "A mobile app designed to help Chinese language students learn radicals (building blocks of chinese characters) using spaced repetition",
       "tags": ["React Native", "Expo", "Tailwind CSS"],
@@ -48,44 +48,19 @@
       ]
     },
     {
-      "visible": false,
-      "category": "🐍 Django Web App",
-      "title": "Personal Investment Tracking App!",
-      "description": "A web app to track my stock trades over time. Includes auth.",
-      "tags": ["Python Django"],
-      "image": {
-        "src": "../../images/invest1.avif",
-        "alt": "Investment photo"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/greent3/django_stock_portfolio"
-        },
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=4Tu6catIE70"
-        }
-      ]
-    },
-    {
       "visible": true,
-      "category": "⚛️ Simple React App",
-      "title": "25+5 Timer",
-      "description": "A timer with customizable parameters for work time and break time. Implemented in 3 ways: as a single page stateful REACT app, a stateful app divided into parent & child classes, and an app made of functional components using hooks.",
-      "tags": ["React", "CSS"],
+      "category": "🐍 Django API",
+      "title": "RESTful Movie Database API",
+      "description": "A rest api build using Django REST framework",
+      "tags": ["Python", "Django", "REST", "API"],
       "image": {
-        "src": "../../images/pomodoro2.png",
-        "alt": "Timer app photo"
+        "src": "../../images/movies.jpg",
+        "alt": "App photo"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/greent3/25plus5clock"
-        },
-        {
-          "type": "youtube",
-          "url": "https://youtu.be/QtD1SbFAkRM"
+          "url": "https://github.com/greent3/RESTful-movie-database-API"
         }
       ]
     },
@@ -124,6 +99,40 @@
         {
           "type": "youtube",
           "url": "https://youtu.be/kPCYa0pBcYA"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Web Scraping",
+      "title": "Detective Conan Web Scraper",
+      "description": "A web scraper and data manipulation py script",
+      "tags": ["Python", "Webscraping", "Scripting"],
+      "image": {
+        "src": "../../images/dc.png",
+        "alt": "App photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Detective-Conan-Web-Scraper"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "📊 Analyzing SQL Data",
+      "title": "Exploring data about drug use",
+      "description": "Using SQL to answer questions like 'Do graduate degree holders use more caffeine than less educated people?' ",
+      "tags": ["SQL", "Data Analysis"],
+      "image": {
+        "src": "../../images/drugs.jpg",
+        "alt": "App photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Drug-Usage-SQL-EDA/tree/main"
         }
       ]
     },
@@ -175,6 +184,48 @@
         {
           "type": "youtube",
           "url": "https://www.youtube.com/playlist?list=PLppO4E8hA5Ijs5uVqfCuYeQLObD7oqQtR"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🐍 Django Web App",
+      "title": "Personal Investment Tracking App!",
+      "description": "A web app to track my stock trades over time. Includes auth.",
+      "tags": ["Python Django"],
+      "image": {
+        "src": "../../images/invest1.avif",
+        "alt": "Investment photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/django_stock_portfolio"
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=4Tu6catIE70"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "⚛️ Simple React App",
+      "title": "25+5 Timer",
+      "description": "A timer with customizable parameters for work time and break time. Implemented in 3 ways: as a single page stateful REACT app, a stateful app divided into parent & child classes, and an app made of functional components using hooks.",
+      "tags": ["React", "CSS"],
+      "image": {
+        "src": "../../images/pomodoro2.png",
+        "alt": "Timer app photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/25plus5clock"
+        },
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/QtD1SbFAkRM"
         }
       ]
     },
