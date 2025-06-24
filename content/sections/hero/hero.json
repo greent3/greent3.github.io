@@ -10,10 +10,10 @@
   },
   "title": "",
   "subtitle": {
-    "prefix": "I'm a full-stack developer with a multitude of web & ML projects",
+    "prefix": "I'm a full-stack developer with a multitude of web & AI projects",
     "suffix": ""
   },
-  "description": "I've also built some cool projects using C++ and Java.",
+  "description": "",
   "socialProfiles": {
     "from": ["LinkedIn", "Github"],
     "showIcons": false

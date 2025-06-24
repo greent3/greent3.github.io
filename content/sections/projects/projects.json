@@ -14,14 +14,6 @@
         {
           "type": "external",
           "url": "https://www.anime-recommender.com"
-        },
-        {
-          "type": "github",
-          "url": "https://github.com/greent3/anime-recommender"
-        },
-        {
-          "type": "youtube",
-          "url": "https://youtu.be/iYWTQAWePIM"
         }
       ]
 
@@ -44,40 +36,6 @@
         {
           "type": "youtube",
           "url": "https://youtube.com/shorts/JCXouDBuii4?feature=share"
-        }
-      ]
-    },
-    {
-      "visible": true,
-      "category": "🐍 Django API",
-      "title": "RESTful Movie Database API",
-      "description": "A rest api build using Django REST framework",
-      "tags": ["Python", "Django", "REST", "API"],
-      "image": {
-        "src": "../../images/movies.jpg",
-        "alt": "App photo"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/greent3/RESTful-movie-database-API"
-        }
-      ]
-    },
-    {
-      "visible": true,
-      "category": "📊 Analyzing SQL Data",
-      "title": "Investigating Decline in Yammer Users",
-      "description": "Using focused SQL queries to gather relevant data and determine the source of user decline.",
-      "tags": ["SQL", "Jupyter"],
-      "image": {
-        "src": "../../images/sql2.png",
-        "alt": "SQL photo"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/greent3/Investigating_User_Decline/blob/main/Yammer%20Investigation.ipynb"
         }
       ]
     },
@@ -116,6 +74,40 @@
         {
           "type": "github",
           "url": "https://github.com/greent3/Detective-Conan-Web-Scraper"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🐍 Django API",
+      "title": "RESTful Movie Database API",
+      "description": "A rest api build using Django REST framework",
+      "tags": ["Python", "Django", "REST", "API"],
+      "image": {
+        "src": "../../images/movies.jpg",
+        "alt": "App photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/RESTful-movie-database-API"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "📊 Analyzing SQL Data",
+      "title": "Investigating Decline in Yammer Users",
+      "description": "Using focused SQL queries to gather relevant data and determine the source of user decline.",
+      "tags": ["SQL", "Jupyter"],
+      "image": {
+        "src": "../../images/sql2.png",
+        "alt": "SQL photo"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/Investigating_User_Decline/blob/main/Yammer%20Investigation.ipynb"
         }
       ]
     },

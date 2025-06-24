@@ -44,8 +44,8 @@
     }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "+ Load More",
-    "initiallyShownInterests": 3
+    "initiallyShownInterests": 6
   }
 }

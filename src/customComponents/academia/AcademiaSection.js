@@ -1,7 +1,8 @@
 import { Typography, Box, Stack } from "@mui/material";
 import React from "react";
-import { customTheme, themeByComponent } from "../theme/theme";
+import { themeByComponent } from "../theme/theme";
 import uh3 from "../../../content/images/uh3.png";
+import wgu from "../../../content/images/wgu.png";
 
 const subjectArr = [
   "Java",
@@ -17,13 +18,21 @@ const subjectArr = [
 ];
 const academiaDescArr = [
   {
+    school: "Western Governer's University",
+    degree: "B.S. Computer Science",
+    startDate: "In progress",
+    desc: ["Advanced AI", "Advanced Java", "Scripting", "Networking", "Linux"],
+    endDate: "",
+    img: wgu,
+  },
+  {
     school: "University of Hawai'i",
     degree: "143 Credits - Bachelors Computer Science & Chinese",
     startDate: "Fall 2018",
     endDate: "Fall 2021",
     desc: subjectArr,
     img: uh3,
-    note: "I did not graduate. Rather than take required filler courses like Astrology and Botany, I elected to leave university and gain experience in software development.",
+    note: "Left university during covid to gain experience in software development. Currently finishing up my remaining degree requirements at WGU.",
   },
 ];
 
@@ -62,8 +71,12 @@ export default function AcademiaSection() {
       }}
     >
       <Box sx={{ maxWidth: "930px", m: 4.5 }}>
-        <Stack sx={{ display: "flex", flex: 7 / 10, gap: 8 }}>
-          <Stack>
+        <Stack sx={{ display: "flex", flex: 7 / 10, gap: 4 }}>
+          <Stack
+            sx={{
+              gap: 4,
+            }}
+          >
             <Typography
               sx={{ ...themeByComponent.sectionTitle, pb: 2, fontSize: 40 }}
             >
@@ -73,15 +86,14 @@ export default function AcademiaSection() {
               <Box
                 sx={{
                   display: "flex",
-                  flexDirection: index % 2 === 0 ? "row" : "row-reverse",
+                  flexDirection: "row",
+                  // alignItems: "center",
                   // mb: 12,
                   gap: 2,
                 }}
               >
                 <Box sx={{ flex: 1 }}>
-                  <Typography
-                    sx={{ mb: 2, ...themeByComponent.sectionSubtitle }}
-                  >
+                  <Typography sx={{ mb: 2, ...themeByComponent.sectionTitle }}>
                     {`${academia.school}`}
                   </Typography>
                   <Box sx={{ display: "flex", flexDirection: "column", mb: 1 }}>
@@ -89,7 +101,9 @@ export default function AcademiaSection() {
                       {`${academia.degree}`}
                     </Typography>
                     <Typography sx={{ ...themeByComponent.regularText }}>
-                      {`  ${academia.startDate}-${academia.endDate}`}
+                      {academia.endDate
+                        ? `  ${academia.startDate}-${academia.endDate}`
+                        : `${academia.startDate}`}
                     </Typography>
                   </Box>
                   <Typography sx={{ ...themeByComponent.sectionSubtitle }}>
@@ -113,8 +127,15 @@ export default function AcademiaSection() {
                     </>
                   )}
                 </Box>
-                <Box sx={{ display: "flex", flex: "1" }}>
-                  <img src={academia.img} width="auto" height="400" />
+                <Box
+                  sx={{
+                    display: "flex",
+                    flex: "1",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img src={academia.img} width="auto" height="300" />
                 </Box>
               </Box>
             ))}

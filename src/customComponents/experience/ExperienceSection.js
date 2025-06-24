@@ -11,11 +11,12 @@ const experienceDescArr = [
     company: "Scientific Research Corporation",
     title: "Software Engineer II",
     startDate: "Apr2024",
-    endDate: "Current",
+    endDate: "Jun2025 (End of Contract)",
     desc: [
-      "Leveraging frameworks like Spring, React, and Express to deliver robust and scalable server-side and full-stack applications",
-      "Architecting, improving, and running test processes to minimize faults in various deployed environments",
-      "Conducting monthly product demonstrations for clients; ensuring alignment with requirements",
+      "Built robust and scalable full-stack apps with Spring Boot, React, Express, and MUI",
+      "Architected and improved unit tests to minimize faults",
+      "Built for and debugged in containerized environments",
+      "Wrote automation scripts for future code updates",
     ],
     primaryTools: [
       "Java",
@@ -77,12 +78,12 @@ const experienceDescArr = [
     img: ct1,
   },
   {
-    company: "Reesby IT",
-    title: "Python Developer (Intern)",
+    company: "Reesby IT (Recruiting Company)",
+    title: "AI Intern",
     startDate: "July2022",
     endDate: "Oct2022",
     desc: [
-      "Designed and implemented ML algorithms that minimized serverless computing costs",
+      "Designed and implemented ML algorithms to parse resumes and cluster candidates",
       "Implemented relational database schemas, automation scripts, and integrated internal apps with external APIs",
     ],
     primaryTools: ["Python", "Django"],

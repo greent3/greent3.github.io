@@ -27,7 +27,7 @@ export default function futureProjects() {
             testing 📊
           </Typography>
           <Typography sx={themeByComponent.regularText}>
-            • Integrate with smart contracts 📒
+            • Integrate with the cloud
           </Typography>
         </Stack>
       </Box>
