@@ -1,5 +1,31 @@
 {
   "projects": [
+        {
+      "visible": true,
+      "category": "🌐 React Web App",
+      "title": "Travis-GPT",
+      "description": "A RAG supplemented LLM that answers questions about my CV and experience. Leverages OPENAI's api and deployed using EC2 and Route53.",
+      "tags": ["Typescript", "Python", "React", "FAST API", "Material-UI", "AWS"],
+      "image": {
+        "src": "../../images/dm.jpg",
+        "alt": "Chatbot photo"
+      },
+      "links": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/wZvReHjm6ck"
+        },
+        {
+          "type": "external",
+          "url": "https://www.travis-gpt.com"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/greent3/TravisGPT"
+        }
+      ]
+
+    },
     {
       "visible": true,
       "category": "🌐 React Web App",
@@ -14,6 +40,10 @@
         {
           "type": "external",
           "url": "https://www.anime-recommender.com"
+        },
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/apWDXDHwgK0"
         }
       ]
 
