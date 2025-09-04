@@ -210,7 +210,7 @@
       ]
     },
     {
-      "visible": true,
+      "visible": false,
       "category": "🐍 Django Web App",
       "title": "Personal Investment Tracking App!",
       "description": "A web app to track my stock trades over time. Includes auth.",
