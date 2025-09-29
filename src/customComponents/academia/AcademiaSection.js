@@ -20,30 +20,38 @@ const academiaDescArr = [
   {
     school: "Western Governer's University",
     degree: "B.S. Computer Science",
-    startDate: "In progress",
-    desc: ["Advanced AI", "Advanced Java", "Scripting", "Networking", "Linux"],
-    endDate: "",
+    startDate: "Jan 2025",
+    desc: ["Advanced AI", "Advanced Java", "Networking", "Linux"],
+    endDate: "Dec 2025",
     img: wgu,
   },
   {
     school: "University of Hawai'i",
-    degree: "143 Credits - Bachelors Computer Science & Chinese",
+    degree: "B.A. Computer Science & Chinese",
     startDate: "Fall 2018",
     endDate: "Fall 2021",
     desc: subjectArr,
     img: uh3,
-    note: "Left university during covid to gain experience in software development. Currently finishing up my remaining degree requirements at WGU.",
+    note: "Left university during covid to gain experience in software development. Finished my remaining degree requirements at WGU.",
   },
 ];
 
 const certsArr = [
   {
-    title: "AWS Certified Cloud Practicioner",
-    date: "Dec2022 - Dec2025",
-  },
-  {
     title: "Harvard's AI Programming with Python",
     date: "June 2021",
+  },
+  {
+    title: "Global Seal of Bi-literacy (Mandarin Chinese)",
+    date: "2021",
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    date: "Dec2022",
+  },
+  {
+    title: "LPI Linux Essentials",
+    date: "Sept 2025",
   },
 ];
 
