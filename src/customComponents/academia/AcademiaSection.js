@@ -21,7 +21,13 @@ const academiaDescArr = [
     school: "Western Governer's University",
     degree: "B.S. Computer Science",
     startDate: "Jan 2025",
-    desc: ["Advanced AI", "Advanced Java", "Networking", "Linux"],
+    desc: [
+      "Advanced AI",
+      "Advanced Java",
+      "Networking",
+      "Linux",
+      "Computer Architecture",
+    ],
     endDate: "Dec 2025",
     img: wgu,
   },
@@ -43,11 +49,11 @@ const certsArr = [
   },
   {
     title: "Global Seal of Bi-literacy (Mandarin Chinese)",
-    date: "2021",
+    date: "June 2021",
   },
   {
     title: "AWS Certified Cloud Practitioner",
-    date: "Dec2022",
+    date: "Dec 2022",
   },
   {
     title: "LPI Linux Essentials",
