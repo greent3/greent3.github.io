@@ -13,10 +13,11 @@ const experienceDescArr = [
     startDate: "Apr2024",
     endDate: "Jun2025 (End of Contract)",
     desc: [
-      "Built robust and scalable full-stack apps with Spring Boot, React, Express, and MUI",
-      "Architected and improved unit tests to minimize faults",
-      "Built for and debugged in containerized environments",
-      "Wrote automation scripts for future code updates",
+      "Built responsive customer facing applications in React, focusing on small and reusable components",
+      "Implemented and expanded APIs for server-to-server and server-to-client communication",
+      "Created frontend and backend unit tests to reduce post-deployment faults",
+      "Developed and debugged in containerized environments on Linux systems",
+      "Led weekly sprint planning sessions in Jira",
     ],
     primaryTools: [
       "Java",
@@ -47,10 +48,9 @@ const experienceDescArr = [
     startDate: "Jan2023",
     endDate: "Apr 2024",
     desc: [
-      "Built RESTful APIs and server-side logic using Node.js, Express, and Prisma ORM for efficient data retrieval and manipulation",
-      "Created user-friendly interfaces and implementing interactive features using React, including component development, state management, and API integration",
-      "Collaborated with designers to implement visual designs using CSS and Material-UI, focusing on aesthetics, consistency, and responsive design principles",
-      "Participated in Agile methodologies, attending stand-up meetings, and contributing to sprint planning and retrospectives",
+      "Built RESTful APIs and server-side logic using Node.js, Express, Prisma, and relational databases",
+      "Implemented UI mockups and complex state management in React",
+      "Collaborated closely with designers, product managers, and SCRUM masters; contributed to stand-up meetings, sprint planning, and retrospectives",
     ],
     primaryTools: [
       "TypeScript",

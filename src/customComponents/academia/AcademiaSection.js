@@ -18,7 +18,7 @@ const subjectArr = [
 ];
 const academiaDescArr = [
   {
-    school: "Western Governer's University",
+    school: "Western Governor's University",
     degree: "B.S. Computer Science",
     startDate: "Jan 2025",
     desc: [
@@ -28,7 +28,7 @@ const academiaDescArr = [
       "Linux",
       "Computer Architecture",
     ],
-    endDate: "Dec 2025",
+    endDate: "Oct 2025",
     img: wgu,
   },
   {
@@ -44,7 +44,7 @@ const academiaDescArr = [
 
 const certsArr = [
   {
-    title: "Harvard's AI Programming with Python",
+    title: "Harvard's AI Programming with Python Course",
     date: "June 2021",
   },
   {
